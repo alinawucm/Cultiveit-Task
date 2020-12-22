@@ -1,0 +1,102 @@
+body {
+  font-family: sans-serif;
+  background-color: #d1c1b4;
+  color: #36251e;
+  padding: 20px 0 28px 0;
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.roundTitle {
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
+/* .app-title {
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.6rem;
+} */
+
+.event {
+  max-width: 650px;
+  padding: 35px;
+  border-radius: 25px;
+  margin: 40px auto;
+  background-color: #fffdf5;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+  overflow: hidden;
+}
+
+.event-photo {
+  border-radius: 10px;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainInfo {
+  text-align: center;
+}
+
+.event-desc {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0 0 1rem 0;
+  line-height: 20px;
+}
+
+.species {
+  font-size: .9rem;
+  color: #888;
+  vertical-align: middle;
+}
+
+.tags-list {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 17px;
+  font-size: .85rem;
+  line-height: 1.5;
+}
+
+.sub {
+  font-size: 0.8rem;
+  color: #6e564d;
+  text-align: center;
+  margin: 0;
+}
+
+.btn {
+  color: #6e564d;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #fffdf5;
+  border: 0px solid white;
+  padding: 8px 10px;
+  outline: none;
+  font-family: 'Varela Round', sans-serif;
+  margin: 5px 1px 5px 1px
+}
+
+.btn:hover {
+  background-color: #ab8576;
+}
+
+.filterBar {
+  text-align:center;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+}

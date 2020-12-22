@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 class="roundTitle">Cultiveit Events</h1>
+    <div class="filterBar">
+      <p>Filter by: </p>
+      <button class="btn" onclick="filter('all')" id="allBtn">all events</button>
+      <button class="btn" onclick="filter('outdoors')" id="outdoorsBtn">outdoors</button>
+      <button class="btn" onclick="filter('night time')" id="nighttimeBtn">night time</button>
+      <button class="btn" onclick="filter('museum')" id="museumBtn">museum</button>
+      <button class="btn" onclick="filter('indoor')" id="indoorBtn">indoor</button>
+      <button class="btn" onclick="filter('cheap')" id="cheapBtn">cheap</button>
+      <button class="btn" onclick="filter('grade schoolers')" id="gradeschoolersBtn">grade schoolers</button>
+      <button class="btn" onclick="filter('preschoolers')" id="preschoolersBtn">preschoolers</button>
+      <button class="btn" onclick="filter('art')" id="artBtn">art</button>
+      <button class="btn" onclick="filter('music')" id="musicBtn">music</button>
+      <button class="btn" onclick="filter('science')" id="scienceBtn">science</button>
+      <button class="btn" onclick="filter('athletics')" id="athleticsBtn">athletics</button>
+      <button class="btn" onclick="filter('virtual')" id="virtualBtn">virtual</button>
+      <button class="btn" onclick="filter('food')" id="foodBtn">food</button>
+    </div>
+    <div id="app"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
